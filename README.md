@@ -1,6 +1,8 @@
 # Assets y logos — RF Village MX
 
-Kit visual de la comunidad **RF Village MX** para la Wardriving Platform, correo, iconos, stickers y branding de eventos (BugCON / CSI CTF y demás actividades de la villa).
+Kit visual de la comunidad **RF Village MX**.
+
+Mascota oficial de evento: **catarina / bicho BugCON** (pixel). No usar escudo CSI ni cráneo RF como marca de plataforma/evento. para la Wardriving Platform, correo, iconos, stickers y branding de eventos (BugCON / CSI CTF y demás actividades de la villa).
 
 > El nombre del directorio del repo puede cambiar; la marca canónica es siempre **RF Village MX** (nunca omitir **MX**).
 
@@ -39,7 +41,7 @@ sources/            # Referencias y originales (no tocar a la ligera)
   events/
     bugcon/         # Material BugCON
     csi_ctf/        # Material CSI CTF / Club de Seguridad Informática
-codecs/             # Salidas generadas / asistidas con Codex
+codex/             # Salidas generadas / asistidas con Codex
 generated/          # Salidas generales (p. ej. Cursor GenerateImage)
 gemini_generated/   # Salidas Antigravity / Gemini
 ```
@@ -55,7 +57,7 @@ gemini_generated/   # Salidas Antigravity / Gemini
 
 1. Incluir siempre **MX** en textos de marca (**RF Village MX**).
 2. Preferir fondo carbón (`#0B0B0D` / negro) con violeta + lima neón.
-3. Separar motores de generación por carpeta (`codecs` / `generated` / `gemini_generated`).
+3. Separar motores de generación por carpeta (`codex` / `generated` / `gemini_generated`).
 4. Dejar fuentes en `sources/`; no sobrescribir referencias al regenerar.
 
 ## Licencia / uso

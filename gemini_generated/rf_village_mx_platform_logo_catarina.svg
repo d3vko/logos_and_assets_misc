@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" role="img" aria-labelledby="platTitle platDesc">
+  <title id="platTitle">RF Village MX - Platform Logo Catarina</title>
+  <desc id="platDesc">Official platform and CTF navbar logo for RF Village MX featuring the BugCON catarina mascot, telemetry frame, and community branding. Prohibited skulls and shields omitted.</desc>
+  <defs>
+    <linearGradient id="platBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120E1A"/>
+      <stop offset="50%" stop-color="#0B0B0D"/>
+      <stop offset="100%" stop-color="#07060A"/>
+    </linearGradient>
+    <linearGradient id="platSilver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F5F5F7"/>
+      <stop offset="60%" stop-color="#C4C0CC"/>
+      <stop offset="100%" stop-color="#7B7388"/>
+    </linearGradient>
+    <filter id="platGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-brand { font-family: 'Rajdhani', 'Inter', 'Segoe UI', system-ui, sans-serif; font-weight: 800; }
+    .font-mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="960" height="560" rx="28" fill="url(#platBg)"/>
+  
+  <!-- Subtle Circuit Dots -->
+  <g fill="#1E1B26" opacity="0.8">
+    <circle cx="80" cy="80" r="2"/><circle cx="160" cy="80" r="2"/><circle cx="240" cy="80" r="2"/>
+    <circle cx="80" cy="160" r="2"/><circle cx="80" cy="240" r="2"/><circle cx="80" cy="320" r="2"/>
+    <circle cx="880" cy="80" r="2"/><circle cx="880" cy="160" r="2"/><circle cx="880" cy="240" r="2"/>
+  </g>
+
+  <!-- Framing Border -->
+  <rect x="24" y="24" width="912" height="512" rx="20" fill="none" stroke="#1E1B26" stroke-width="2"/>
+  <rect x="34" y="34" width="892" height="492" rx="14" fill="none" stroke="#B026FF" stroke-width="1.5" stroke-dasharray="10 8" opacity="0.4"/>
+
+  <!-- Left: Catarina Mascot Emblem Container (Circular Radar Frame - NO SHIELD) -->
+  <g transform="translate(65, 80)">
+    <!-- Radar Ambient Ring -->
+    <circle cx="180" cy="190" r="165" fill="#16141C" stroke="#252033" stroke-width="2"/>
+    <circle cx="180" cy="190" r="145" fill="none" stroke="#B026FF" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.7"/>
+    <circle cx="180" cy="190" r="115" fill="none" stroke="#4AF626" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.5"/>
+    <!-- Radar Crosshairs -->
+    <line x1="180" y1="35" x2="180" y2="345" stroke="#1E1B26" stroke-width="1.5"/>
+    <line x1="25" y1="190" x2="335" y2="190" stroke="#1E1B26" stroke-width="1.5"/>
+
+    <!-- Catarina BugCON Mascot -->
+    <g transform="translate(60, 40) scale(1.0)">
+      <!-- Red Spotted Shell Wings -->
+      <path d="M 45 85 H 20 V 110 H 6 V 140 H -4 V 205 H 6 V 230 H 30 V 250 H 55 V 230 H 65 V 110 H 45 Z"
+            fill="#E62D48" stroke="#0B0B0D" stroke-width="3.5"/>
+      <path d="M 195 85 H 220 V 110 H 234 V 140 H 244 V 205 H 234 V 230 H 210 V 250 H 185 V 230 H 175 V 110 H 195 Z"
+            fill="#E62D48" stroke="#0B0B0D" stroke-width="3.5"/>
+      <!-- Spots -->
+      <rect x="10" y="125" width="16" height="18" rx="2" fill="#0B0B0D"/>
+      <rect x="32" y="165" width="18" height="20" rx="2" fill="#0B0B0D"/>
+      <rect x="214" y="125" width="16" height="18" rx="2" fill="#0B0B0D"/>
+      <rect x="190" y="165" width="18" height="20" rx="2" fill="#0B0B0D"/>
+
+      <!-- Claws -->
+      <rect x="65" y="248" width="28" height="16" rx="3" fill="#4AF626" stroke="#0B0B0D" stroke-width="3"/>
+      <rect x="147" y="248" width="28" height="16" rx="3" fill="#4AF626" stroke="#0B0B0D" stroke-width="3"/>
+
+      <!-- Hoodie Body -->
+      <path d="M 48 115 H 192 L 205 150 V 242 H 180 V 254 H 60 V 242 H 35 L 35 150 Z"
+            fill="#1E1B26" stroke="#0B0B0D" stroke-width="3.5"/>
+      <path d="M 60 252 H 180 V 258 H 60 Z" fill="#B026FF"/>
+
+      <!-- BUGCON Chest Badge -->
+      <g transform="translate(68, 150)">
+        <rect x="0" y="0" width="104" height="20" rx="3" fill="#0B0B0D" stroke="#B026FF" stroke-width="1.2"/>
+        <text x="12" y="14" fill="#F5F5F7" class="font-mono" font-size="12" font-weight="900" letter-spacing="3">BUGCON</text>
+      </g>
+
+      <!-- Radiating RF waves on chest (NO SKULL) -->
+      <g transform="translate(120, 204)" stroke="#4AF626" fill="none">
+        <circle cx="0" cy="5" r="3" fill="#4AF626"/>
+        <path d="M -10 0 A 11 11 0 0 1 10 0" stroke-width="2" stroke-linecap="round"/>
+        <path d="M -18 -6 A 19 19 0 0 1 18 -6" stroke-width="2" stroke-linecap="round"/>
+      </g>
+
+      <!-- Green Pixel Head -->
+      <g id="plat-head">
+        <path d="M 65 42 H 175 V 52 H 190 V 74 H 198 V 112 H 185 V 125 H 172 V 132 H 68 V 125 H 55 V 112 H 42 V 74 H 50 V 52 H 65 Z"
+              fill="#4AF626" stroke="#0B0B0D" stroke-width="3.5"/>
+
+        <!-- Antennae -->
+        <path d="M 78 42 V 18 H 65 V 2 H 48 V -8 H 65" fill="none" stroke="#2FA319" stroke-width="7" stroke-linecap="square"/>
+        <path d="M 78 42 V 18 H 65 V 2 H 48 V -8 H 65" fill="none" stroke="#4AF626" stroke-width="4.5" stroke-linecap="square"/>
+        <rect x="60" y="-14" width="10" height="10" rx="2" fill="#B026FF" stroke="#0B0B0D" stroke-width="2"/>
+        <circle cx="65" cy="-9" r="2.5" fill="#4AF626" filter="url(#platGlow)"/>
+
+        <path d="M 162 42 V 18 H 175 V 2 H 192 V -8 H 175" fill="none" stroke="#2FA319" stroke-width="7" stroke-linecap="square"/>
+        <path d="M 162 42 V 18 H 175 V 2 H 192 V -8 H 175" fill="none" stroke="#4AF626" stroke-width="4.5" stroke-linecap="square"/>
+        <rect x="170" y="-14" width="10" height="10" rx="2" fill="#B026FF" stroke="#0B0B0D" stroke-width="2"/>
+        <circle cx="175" cy="-9" r="2.5" fill="#4AF626" filter="url(#platGlow)"/>
+
+        <!-- Visor Eyes -->
+        <rect x="72" y="72" width="24" height="28" rx="3" fill="#0B0B0D"/>
+        <rect x="75" y="76" width="10" height="12" rx="2" fill="#FFFFFF"/>
+        <rect x="76" y="92" width="16" height="5" fill="#4AF626"/>
+
+        <rect x="144" y="72" width="24" height="28" rx="3" fill="#0B0B0D"/>
+        <rect x="147" y="76" width="10" height="12" rx="2" fill="#FFFFFF"/>
+        <rect x="148" y="92" width="16" height="5" fill="#4AF626"/>
+
+        <!-- Smile -->
+        <path d="M 108 112 H 118 V 118 H 128 V 118 H 138 V 112" fill="none" stroke="#0B0B0D" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right: Platform Branding & Typography -->
+  <g transform="translate(450, 150)">
+    <!-- Category Badge -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="220" height="28" rx="4" fill="#16141C" stroke="#252033" stroke-width="1.2"/>
+      <circle cx="14" cy="14" r="4" fill="#4AF626" filter="url(#platGlow)"/>
+      <text x="26" y="19" fill="#4AF626" class="font-mono" font-size="11" font-weight="700">WARDRIVING PLATFORM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="95" class="font-brand" font-size="76" font-weight="900" letter-spacing="3" fill="url(#platSilver)">
+      RF VILLAGE <tspan fill="#4AF626" filter="url(#platGlow)">MX</tspan>
+    </text>
+
+    <!-- Cyber Divider Line -->
+    <line x1="0" y1="125" x2="440" y2="125" stroke="#E62D48" stroke-width="3.5"/>
+    <line x1="0" y1="133" x2="310" y2="133" stroke="#B026FF" stroke-width="2"/>
+    <line x1="320" y1="133" x2="440" y2="133" stroke="#4AF626" stroke-width="2"/>
+
+    <!-- Tagline -->
+    <text x="2" y="168" class="font-mono" font-size="16" font-weight="700" letter-spacing="3" fill="#C4C0CC">
+      BUGCON WIRELESS DEFENSE &amp; CTF
+    </text>
+
+    <!-- Spectrum & Architecture Badges -->
+    <g transform="translate(2, 205)">
+      <rect x="0" y="0" width="135" height="32" rx="6" fill="#16141C" stroke="#B026FF" stroke-width="1.5"/>
+      <text x="14" y="21" fill="#F5F5F7" class="font-mono" font-size="12" font-weight="700">RF SENSORS</text>
+
+      <rect x="148" y="0" width="135" height="32" rx="6" fill="#16141C" stroke="#2EE6D6" stroke-width="1.5"/>
+      <text x="162" y="21" fill="#2EE6D6" class="font-mono" font-size="12" font-weight="700">MAPS // KML</text>
+
+      <rect x="296" y="0" width="140" height="32" rx="6" fill="#16141C" stroke="#4AF626" stroke-width="1.5"/>
+      <text x="312" y="21" fill="#4AF626" class="font-mono" font-size="12" font-weight="700">LATAM NODE</text>
+    </g>
+
+    <!-- Bottom Telemetry Console Line -->
+    <text x="2" y="280" class="font-mono" font-size="12" fill="#80788E" letter-spacing="1">
+      NET://RF-VILLAGE.MX · SEC-LEVEL: MAX · CTFd COMPATIBLE
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="emailTitle emailDesc">
+  <title id="emailTitle">RF Village MX - Email Header Logo</title>
+  <desc id="emailDesc">Email notification banner logo featuring RF Village MX with wardriving van profile, pixel catarina mascot, and RF signals. Prohibited skulls and shields omitted.</desc>
+  <defs>
+    <linearGradient id="emailBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0C13"/>
+      <stop offset="50%" stop-color="#0B0B0D"/>
+      <stop offset="100%" stop-color="#07060A"/>
+    </linearGradient>
+    <linearGradient id="silverText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#F0EDF5"/>
+      <stop offset="55%" stop-color="#C4C0CC"/>
+      <stop offset="100%" stop-color="#8E8899"/>
+    </linearGradient>
+    <filter id="eglowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-brand { font-family: 'Rajdhani', 'Inter', 'Segoe UI', system-ui, sans-serif; font-weight: 800; }
+    .font-mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="320" rx="20" fill="url(#emailBg)"/>
+  <rect x="12" y="12" width="1176" height="296" rx="14" fill="none" stroke="#1E1B26" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="280" rx="10" fill="none" stroke="#B026FF" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.4"/>
+
+  <!-- Left Side: Compact Wardriving Van & Catarina Duo -->
+  <g id="email-van-mascot" transform="translate(50, 45)">
+    <!-- Radio Waves -->
+    <path d="M 220 25 A 30 30 0 0 1 250 50" fill="none" stroke="#4AF626" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 230 15 A 45 45 0 0 1 270 50" fill="none" stroke="#4AF626" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 180 25 A 30 30 0 0 0 150 50" fill="none" stroke="#4AF626" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 170 15 A 45 45 0 0 0 130 50" fill="none" stroke="#4AF626" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Roof Rack Antennas -->
+    <rect x="80" y="60" width="220" height="8" rx="2" fill="#2B2538"/>
+    <line x1="200" y1="60" x2="200" y2="5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="200" cy="5" r="4" fill="#4AF626" filter="url(#eglowGreen)"/>
+    <line x1="260" y1="60" x2="310" y2="25" stroke="#C4C0CC" stroke-width="3" stroke-linecap="round"/>
+    <line x1="280" y1="42" x2="288" y2="54" stroke="#4AF626" stroke-width="2.5"/>
+    <line x1="295" y1="34" x2="303" y2="44" stroke="#4AF626" stroke-width="2"/>
+
+    <!-- Van Shadow -->
+    <ellipse cx="190" cy="220" rx="160" ry="12" fill="#000000" opacity="0.6"/>
+
+    <!-- Van Body -->
+    <path d="M 50 140 L 70 85 Q 75 70 95 70 L 285 70 Q 305 70 320 88 L 355 150 Q 365 170 365 200 L 365 210 L 45 210 Q 40 170 50 140 Z"
+          fill="#B026FF" stroke="#0B0B0D" stroke-width="3"/>
+    <path d="M 45 160 L 365 160 L 365 180 L 45 180 Z" fill="#E62D48"/>
+    <path d="M 45 157 L 365 157 L 365 160 L 45 160 Z" fill="#4AF626"/>
+    <path d="M 45 200 L 365 200 L 365 212 L 45 212 Z" fill="#16141C"/>
+
+    <!-- Van Windows -->
+    <rect x="75" y="85" width="55" height="48" rx="3" fill="#1E1B26" stroke="#0B0B0D" stroke-width="2"/>
+    <rect x="140" y="85" width="65" height="48" rx="3" fill="#1E1B26" stroke="#0B0B0D" stroke-width="2"/>
+    <path d="M 215 85 L 280 85 L 315 133 L 215 133 Z" fill="#1E1B26" stroke="#0B0B0D" stroke-width="2"/>
+    <line x1="145" y1="100" x2="195" y2="100" stroke="#4AF626" stroke-width="1.5"/>
+
+    <!-- Wheels -->
+    <circle cx="105" cy="210" r="28" fill="#0B0B0D" stroke="#24202E" stroke-width="3"/>
+    <circle cx="105" cy="210" r="14" fill="#C4C0CC"/>
+    <circle cx="105" cy="210" r="5" fill="#4AF626"/>
+
+    <circle cx="305" cy="210" r="28" fill="#0B0B0D" stroke="#24202E" stroke-width="3"/>
+    <circle cx="305" cy="210" r="14" fill="#C4C0CC"/>
+    <circle cx="305" cy="210" r="5" fill="#4AF626"/>
+
+    <!-- Catarina BugCON Mascot (Co-Pilot Profile) -->
+    <g transform="translate(325, 40) scale(0.68)">
+      <!-- Red Spotted Elytra Wings -->
+      <path d="M 20 60 H 5 V 130 H 20 V 150 H 45 V 60 Z" fill="#E62D48" stroke="#0B0B0D" stroke-width="3"/>
+      <rect x="10" y="75" width="10" height="12" rx="2" fill="#0B0B0D"/>
+      <rect x="15" y="110" width="12" height="14" rx="2" fill="#0B0B0D"/>
+
+      <!-- Hoodie Body -->
+      <path d="M 35 75 H 115 L 125 150 H 30 Z" fill="#1E1B26" stroke="#0B0B0D" stroke-width="3"/>
+      <rect x="45" y="95" width="60" height="16" rx="2" fill="#0B0B0D"/>
+      <text x="50" y="107" fill="#F5F5F7" class="font-mono" font-size="10" font-weight="900" letter-spacing="1">BUGCON</text>
+      <!-- RF wave on chest instead of skull -->
+      <circle cx="75" cy="125" r="2.5" fill="#4AF626"/>
+      <path d="M 68 120 A 7 7 0 0 1 82 120" fill="none" stroke="#4AF626" stroke-width="2"/>
+
+      <!-- Green Pixel Head -->
+      <path d="M 45 25 H 105 V 75 H 45 Z" fill="#4AF626" stroke="#0B0B0D" stroke-width="3"/>
+      <!-- Antennae -->
+      <path d="M 55 25 V 5 H 42" fill="none" stroke="#4AF626" stroke-width="4"/>
+      <circle cx="42" cy="5" r="3" fill="#B026FF"/>
+      <path d="M 95 25 V 5 H 108" fill="none" stroke="#4AF626" stroke-width="4"/>
+      <circle cx="108" cy="5" r="3" fill="#B026FF"/>
+
+      <!-- Eyes -->
+      <rect x="52" y="38" width="16" height="18" fill="#0B0B0D"/>
+      <rect x="54" y="42" width="7" height="7" fill="#FFFFFF"/>
+      <rect x="82" y="38" width="16" height="18" fill="#0B0B0D"/>
+      <rect x="84" y="42" width="7" height="7" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- Right Side: Bold Typography & Event Details -->
+  <g transform="translate(490, 80)">
+    <!-- Main Title -->
+    <text x="0" y="70" class="font-brand" font-size="72" font-weight="900" letter-spacing="3" fill="url(#silverText)">
+      RF VILLAGE <tspan fill="#4AF626" filter="url(#eglowGreen)">MX</tspan>
+    </text>
+
+    <!-- Dividing Cyber Bar -->
+    <line x1="0" y1="95" x2="650" y2="95" stroke="#E62D48" stroke-width="3.5"/>
+    <line x1="0" y1="102" x2="480" y2="102" stroke="#B026FF" stroke-width="2"/>
+    <line x1="490" y1="102" x2="650" y2="102" stroke="#4AF626" stroke-width="2"/>
+
+    <!-- Subtitle -->
+    <text x="2" y="132" class="font-mono" font-size="16" font-weight="700" letter-spacing="2.5" fill="#C4C0CC">
+      BUGCON WARDRIVING PLATFORM &amp; CTF NOTIFICATIONS
+    </text>
+
+    <!-- Badge Line -->
+    <g transform="translate(2, 155)">
+      <rect x="0" y="0" width="170" height="28" rx="5" fill="#16141C" stroke="#B026FF" stroke-width="1.2"/>
+      <circle cx="15" cy="14" r="4" fill="#4AF626"/>
+      <text x="28" y="19" fill="#F5F5F7" class="font-mono" font-size="11" font-weight="700">STATUS: VERIFIED</text>
+
+      <rect x="185" y="0" width="220" height="28" rx="5" fill="#16141C" stroke="#252033" stroke-width="1.2"/>
+      <text x="198" y="19" fill="#2EE6D6" class="font-mono" font-size="11" font-weight="700">AUTH: COMMUNITY DISPATCH</text>
+    </g>
+  </g>
+</svg>
